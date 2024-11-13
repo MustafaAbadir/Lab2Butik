@@ -164,7 +164,7 @@ namespace Lab2Butik
             if (productItem != null)
             {
                 // if product already exists in the cart then increase the quantity
-                productItem.Quantity++;
+                productItem.Quantity += quantity;
             }
             else
             {

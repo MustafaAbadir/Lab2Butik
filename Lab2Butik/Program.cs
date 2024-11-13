@@ -191,9 +191,10 @@ class Program
             if (customerChoice == "1")
             {
                 Console.WriteLine("\nPayment successfull! Thank you for shopping at our shop.");
-
-                //currentCustomer.Cart.Clear();  
+  
                 Console.Write("\nPlease click Enter to return to the Main Menu ");
+                // empty cart
+                currentCustomer.Cart.Clear();
                 currentCustomer = null;
             }
 
